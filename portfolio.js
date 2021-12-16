@@ -1,40 +1,40 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "John Guan",
+	title: "Hi all, I'm John",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate Front End Web Developer and React App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
+	resumeLink: "",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "jqg123",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "",
+	instagram: "",
+	twitter: "",
+	github: "https://github.com/jqg123",
+	linkedin: "https://www.linkedin.com/in/john-guan-0722498b/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CRAZY FRONT END DEVELOPER WHO WANTS TO EXPLORE AI",
 	skills: [
 		emoji(
 			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ React app flexibility and deployment"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Getting data from an api"
 		),
 	],
 
@@ -117,48 +117,47 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "50",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "70",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
+		schoolName: "University of California Riverside",
+		subHeader: "Planed Bachlor of Science in Computer Science",
 		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		desc: "Continuing",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Designed a truss system as exercise equipment that won't tip over'",
+			"Proficient in Solidworks, Matlab, and dimensional analysis",
 		],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Mount San Antonio College",
+		subHeader: "Associate Natural Sciences",
+		duration: "September 2014 - April 2016",
+		desc: "Completed",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+			"Math, Physics, Biology survey"],
+			
 	},
 	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+		schoolName: "University of California San Diego Extension",
+		subHeader: "Front End Development Certificate",
+		duration: "September 2020 - June 2021",
+		desc: "Graduated with a 3.54 gpa. Took courses about Software Engineering, Web Security, Application Creation, ...",
 		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+			"Built interactive websites from scratch"
 		],
 	},
 ];
 
 export const experience = [
-	{
+	/*{
 		role: "Software Engineer",
 		company: "Google",
 		companylogo: "/img/icons/common/google.svg",
@@ -168,51 +167,49 @@ export const experience = [
 			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
-	},
+	},*/
 	{
 		role: "Front-End Developer",
-		company: "Github",
+		company: "Hack for LA",
 		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		date: "Nov 2021 – Continuing",
+		desc: "Incorporate changes to website such as image compliance and coding from figma prototype"
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
+		role: "Software Engineer in training",
+		company: "Revature",
 		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		date: "September 2021 – Continuing",
+		desc: "Java email and scheduling app",
 	},
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		name: "TBD",
+		desc: "TBD",
 		link: "https://example.com",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "TBD",
+		desc: "TBD",
+		github: "https://github.com/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "TBD",
+		desc: "TBD",
+		github: "https://github.com/",
 		link: "https://example.com",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "TBD",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
-	},
+			"TBD"},
 	{
-		name: "Maheen Altaf",
+		name: "TBD",
 		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
-	},
+			"TBD"}
 ];
